@@ -1,0 +1,27 @@
+Question 1
+
+git clone https://github.com/yutingchung49/Data541_Lab3.git
+
+cd Data541_Lab3
+
+git checkout -b Markdown
+
+git status
+
+git add lab3_q1.md lab3_q2.md
+git commit -m "Add lab3_q1.md and lab3_q2.md to Markdown branch"
+
+git push -u origin Markdown
+
+
+Question 2
+
+git checkout main
+
+git merge Markdown
+
+git push origin main
+
+git branch -d Markdown
+
+git log --oneline
